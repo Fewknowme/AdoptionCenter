@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_566317_test_.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+<h1>Add a new Dog</h1>
+<form class="form-horizontal">
+    <div class="form-group">
+        <label for="dogName" class="col-sm-2 control-label">Name of Dog:</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="dogName"/>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="dogAge" class="col-sm-2 control-label">Age of Dog:</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="dogAge"/>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <div class="checkbox">
+                <label>
+                    <input id="dogShots" type="checkbox"/>
+                    Shots
+                </label>
+        </div>
+        </div> 
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <div class="checkbox">
+                <label>
+                    <input id="dogNeutered" type="checkbox"/>
+                    Neutered
+                </label>
+        </div>
+        </div> 
+    </div>
+</form>
+<button id="addDog" class="btn btn-default">Add Dog</button>
+<div id="msg"></div>
+</j:jelly>]]></html>
+        <name/>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-29 14:54:51</sys_created_on>
+        <sys_id>38b7844b2fdd2010a33f57ab2799b6f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="test" source="x_566317_test">08ec7f722fdd2010a33f57ab2799b604</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">08ec7f722fdd2010a33f57ab2799b604</sys_scope>
+        <sys_update_name>sys_ui_page_38b7844b2fdd2010a33f57ab2799b6f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-29 14:54:51</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="test">08ec7f722fdd2010a33f57ab2799b604</application>
+        <file_path/>
+        <instance_id>0a6d286bdb8ef3c89df22f17d4961998</instance_id>
+        <instance_name>dev88444</instance_name>
+        <name>sys_ui_page_38b7844b2fdd2010a33f57ab2799b6f4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_566317_test_.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+
+&lt;h1&gt;Add a new Dog&lt;/h1&gt;
+&lt;form class="form-horizontal"&gt;
+    &lt;div class="form-group"&gt;
+        &lt;label for="dogName" class="col-sm-2 control-label"&gt;Name of Dog:&lt;/label&gt;
+        &lt;div class="col-sm-4"&gt;
+            &lt;input type="text" class="form-control" id="dogName"/&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="form-group"&gt;
+        &lt;label for="dogAge" class="col-sm-2 control-label"&gt;Age of Dog:&lt;/label&gt;
+        &lt;div class="col-sm-4"&gt;
+            &lt;input type="text" class="form-control" id="dogAge"/&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="form-group"&gt;
+        &lt;div class="col-sm-offset-2 col-sm-10"&gt;
+            &lt;div class="checkbox"&gt;
+                &lt;label&gt;
+                    &lt;input id="dogShots" type="checkbox"/&gt;
+                    Shots
+                &lt;/label&gt;
+        &lt;/div&gt;
+        &lt;/div&gt; 
+    &lt;/div&gt;
+    &lt;div class="form-group"&gt;
+        &lt;div class="col-sm-offset-2 col-sm-10"&gt;
+            &lt;div class="checkbox"&gt;
+                &lt;label&gt;
+                    &lt;input id="dogNeutered" type="checkbox"/&gt;
+                    Neutered
+                &lt;/label&gt;
+        &lt;/div&gt;
+        &lt;/div&gt; 
+    &lt;/div&gt;
+&lt;/form&gt;
+&lt;button id="addDog" class="btn btn-default"&gt;Add Dog&lt;/button&gt;
+&lt;div id="msg"&gt;&lt;/div&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name/&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-12-29 14:54:51&lt;/sys_created_on&gt;&lt;sys_id&gt;38b7844b2fdd2010a33f57ab2799b6f4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="test" source="x_566317_test"&gt;08ec7f722fdd2010a33f57ab2799b604&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="test"&gt;08ec7f722fdd2010a33f57ab2799b604&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_38b7844b2fdd2010a33f57ab2799b6f4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-12-29 14:54:51&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-738530984</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>80ec7f722fdd2010a33f57ab2799b606</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-29 14:54:51</sys_created_on>
+        <sys_id>abb7484b2fdd2010a33f57ab2799b665</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176aefe9ef70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-29 14:54:51</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>e3b7484bcedd2010e1ce2748337c0765</update_guid>
+        <update_guid_history>e3b7484bcedd2010e1ce2748337c0765:-738530984</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-29 14:56:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>50b91f7b029d4d88bae9c92a154fd021</sys_id>
+        <sys_metadata>38b7844b2fdd2010a33f57ab2799b6f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="test" source="x_566317_test">08ec7f722fdd2010a33f57ab2799b604</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="test">08ec7f722fdd2010a33f57ab2799b604</sys_scope>
+        <sys_scope_delete display_value="">3de5534c88434c288127b8cbfcf0aa89</sys_scope_delete>
+        <sys_update_name>sys_ui_page_38b7844b2fdd2010a33f57ab2799b6f4</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_38b7844b2fdd2010a33f57ab2799b6f4">abb7484b2fdd2010a33f57ab2799b665</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-29 14:56:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

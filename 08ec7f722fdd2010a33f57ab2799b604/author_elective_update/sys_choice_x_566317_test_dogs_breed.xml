@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="breed" table="x_566317_test_dogs" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>breed</element>
+            <name>x_566317_test_dogs</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-29 14:19:12</sys_created_on>
+            <sys_id>dd9fb7362fdd2010a33f57ab2799b62c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>breed</sys_name>
+            <sys_package display_value="test" source="x_566317_test">08ec7f722fdd2010a33f57ab2799b604</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="test">08ec7f722fdd2010a33f57ab2799b604</sys_scope>
+            <sys_update_name>sys_choice_x_566317_test_dogs_breed</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-29 14:19:12</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>breed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Labredor</label>
+            <language>en</language>
+            <name>x_566317_test_dogs</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-29 14:20:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4eefff362fdd2010a33f57ab2799b647</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-29 14:20:46</sys_updated_on>
+            <value>labredor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>breed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>German Shepard</label>
+            <language>en</language>
+            <name>x_566317_test_dogs</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-29 14:21:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8eff37362fdd2010a33f57ab2799b686</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-29 14:21:07</sys_updated_on>
+            <value>german_shepard</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>breed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mix</label>
+            <language>en</language>
+            <name>x_566317_test_dogs</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-29 14:19:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d98fbf362fdd2010a33f57ab2799b6b5</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-29 14:20:30</sys_updated_on>
+            <value>mix</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
